@@ -2,9 +2,10 @@
   --primary-text-color: #757575;
   --title-text-color: #000000;
   --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
 }
 body {
-  background-color: #ffffff;
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
 .logo {
@@ -13,14 +14,11 @@ body {
 span {
   color: var(--title-text-color);
 }
+/* Cтили для index.html */
 ul {
   list-style: none;
 }
-/* цвет основного текста #000000 */
-/* вторичный цвет текста #757575 */
-/* белый #ffffff */
-/* акцент #2196F3 */
-/* вторичный цвет фона #F5F4FA */
+/* Site nav */
 .site-nav .link {
   color: var(--title-text-color);
 }
@@ -28,12 +26,32 @@ ul {
 .site-nav .link:focus {
   color: var(--accent-color);
 }
+.site-nav .link.current {
+  color: var(--accent-color);
+}
 .hero-title {
   color: #ffffff;
 }
+/* Section */
 .section-title {
   color: var(--title-text-color);
 }
+/* Features */
 .feature-list .title {
   color: var(--title-text-color);
 }
+/* Work-list examples */
+.work-list .title {
+  color: var(--primary-text-color);
+}
+/* Button */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+}
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+/* Стили для portfolio.html */
