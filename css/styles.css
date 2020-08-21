@@ -1,8 +1,9 @@
 :root {
   --primary-text-color: #757575;
-  --title-text-color: #000000;
+  --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
+  --secondary-button-color: #f5f4fa;
 }
 body {
   background-color: var(--primary-white-color);
@@ -55,3 +56,24 @@ ul {
 }
 
 /* Стили для portfolio.html */
+/* Button section */
+.button-nav {
+  background-color: var(--secondary-button-color);
+  color: var(--title-text-color);
+}
+.page-nav .button-nav {
+  background-color: var(--secondary-button-color);
+  color: var(--title-text-color);
+}
+.page-nav .button-nav:hover,
+.page-nav .button-nav:focus {
+  color: var(--accent-color);
+}
+.page-nav .button-nav-current {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+/* Projects */
+.project .project-title {
+  color: var(--title-text-color);
+}
