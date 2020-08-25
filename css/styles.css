@@ -47,7 +47,7 @@ ul {
   color: var(--accent-color);
   letter-spacing: 0.02em;
 }
-.contact-nav .contact {
+.contact .contact-item {
   color: var(--primary-text-color);
   font-weight: 500;
   font-size: 14px;
@@ -56,13 +56,9 @@ ul {
   text-decoration: none;
 }
 
-.contact-nav .contact:hover,
-.contact-nav .contact:focus {
+.contact .contact-item:hover,
+.contact .contact-item:focus {
   color: var(--accent-color);
-}
-.contact-nav .contact.current {
-  color: var(--accent-color);
-  letter-spacing: 0.02em;
 }
 /* Section hero */
 .hero-title {
