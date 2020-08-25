@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
@@ -34,12 +34,12 @@
         <a href="" class="button primary">Заказать услугу</a>
       </section>
       <section class="section">
-        <h2 class="section-title">Наши преимущества</h2>
+        <h2 class="section-title-hidden">Наши преимущества</h2>
         <ul class="feature-list">
           <li>
             <img src="./images/Vector1.svg" alt="Иконка" />
             <h3 class="title">Внимание к деталям</h3>
-            <p>
+            <p class="text-feature">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
@@ -47,7 +47,7 @@
           <li>
             <img src="./images/Vector2.svg" alt="Иконка" />
             <h3 class="title">Пунктуальность</h3>
-            <p>
+            <p class="text-feature">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
@@ -55,7 +55,7 @@
           <li>
             <img src="./images/Vector3.svg" alt="Иконка" />
             <h3 class="title">Планирование</h3>
-            <p>
+            <p class="text-feature">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
@@ -63,7 +63,7 @@
           <li>
             <img src="./images/Vector4.svg" alt="Иконка" />
             <h3 class="title">Современные технологии</h3>
-            <p>
+            <p class="text-feature">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -104,8 +104,8 @@
         <ul>
           <li>
             <img src="./images/team-mate1.jpg" alt="Член команды" width="270" />
-            <h3>Николай Кучеренко</h3>
-            <p>Product Designer</p>
+            <h3 class="team-mate">Николай Кучеренко</h3>
+            <p class="text-mate">Product Designer</p>
             <ul>
               <li>
                 <a href="/" aria-label="Ссылка на Instagram">Instagram</a>
@@ -117,8 +117,8 @@
           </li>
           <li>
             <img src="./images/team-mate2.jpg" alt="Член команды" width="270" />
-            <h3>Ольга Иванова</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-mate">Ольга Иванова</h3>
+            <p class="text-mate">Frontend Developer</p>
             <ul>
               <li>
                 <a href="/" aria-label="Ссылка на Instagram">Instagram</a>
@@ -130,8 +130,8 @@
           </li>
           <li>
             <img src="./images/team-mate3.jpg" alt="Член команды" width="270" />
-            <h3>Андрей Шевченко</h3>
-            <p>Marketing</p>
+            <h3 class="team-mate">Андрей Шевченко</h3>
+            <p class="text-mate">Marketing</p>
             <ul>
               <li>
                 <a href="/" aria-label="Ссылка на Instagram">Instagram</a>
@@ -143,8 +143,8 @@
           </li>
           <li>
             <img src="./images/team-mate4.jpg" alt="Член команды" width="270" />
-            <h3>Иван Николаев</h3>
-            <p>UI Designer</p>
+            <h3 class="team-mate">Иван Николаев</h3>
+            <p class="text-mate">UI Designer</p>
             <ul>
               <li>
                 <a href="/" aria-label="Ссылка на Instagram">Instagram</a>
@@ -169,18 +169,22 @@
       </section>
     </main>
     <footer>
-      <div>
+      <div class="footer">
         <a href="/" class="logo"> Web<span>Studio</span> </a>
 
         <address>
-          г.Киев, пр-т Леси Украинки, 2б <br />
-          <a href="info@example.com">info@example.com</a> <br />
-          <a href="+380991111111">+38 099 111 11 11</a>
+          <p class="address">
+            г.Киев, пр-т Леси Украинки, 2б
+          </p>
+          <br />
+          <a href="info@example.com" class="address-link">info@example.com</a>
+          <br />
+          <a href="+380991111111" class="address-link">+38 099 111 11 11</a>
         </address>
       </div>
 
-      <div>
-        <b>Присоединяйтесь</b>
+      <div class="footer">
+        <b class="footer-text">Присоединяйтесь</b>
         <ul>
           <li><a href="/" aria-label="Ссылка на Instagram">Instagram</a></li>
           <li><a href="/" aria-label="Ссылка на Twitter">Twitter</a></li>
@@ -188,8 +192,8 @@
           <li><a href="/" aria-label="Ссылка на LimkedIn">LinkedIn</a></li>
         </ul>
       </div>
-      <div>
-        <b>Подпишитесь на рассылку</b>
+      <div class="footer">
+        <b class="footer-text">Подпишитесь на рассылку</b>
         <input type="text" name="E-mail" value="E-mail" id="E-mail" />
         <input type="submit" value="Подписаться" class="button primary" />
       </div>
