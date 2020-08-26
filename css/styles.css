@@ -190,8 +190,7 @@ ul {
   background-color: var(--secondary-button-color);
   color: var(--title-text-color);
 }
-.button-nav,
-.button-nav-current {
+.button-nav {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -203,11 +202,8 @@ ul {
 }
 .page-nav .button-nav:hover,
 .page-nav .button-nav:focus {
-  color: var(--accent-color);
-}
-.page-nav .button-nav-current {
   background-color: var(--accent-color);
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 .project-extra-text {
   color: var(--primary-white-color);
