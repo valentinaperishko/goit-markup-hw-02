@@ -173,6 +173,7 @@ ul {
   line-height: 1.71px;
   letter-spacing: 0.03em;
   text-decoration: none;
+  font-style: normal;
 }
 .address-link:hover,
 .address-link:focus {
