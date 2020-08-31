@@ -168,10 +168,15 @@ ul {
 }
 .address,
 .address-link {
-  font-weight: 400;
+  font-weight: 500;
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
 }
 
 /* Стили для portfolio.html */
