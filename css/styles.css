@@ -13,8 +13,17 @@ body {
   font-family: Roboto, sans-serif;
 }
 /* Logo */
-.logo {
-  color: var(--accent-color);
+header .logo {
+  color: var(--title-text-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.footer .logo {
+  color: var(--primary-white-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -23,7 +32,7 @@ body {
   text-decoration: none;
 }
 span {
-  color: var(--primary-white-color);
+  color: var(--accent-color);
 }
 /* Cтили для index.html */
 ul {
@@ -149,6 +158,7 @@ ul {
   color: var(--title-text-color);
 }
 /* Footer */
+
 .address {
   color: var(--primary-white-color);
 }
@@ -164,20 +174,6 @@ ul {
   letter-spacing: 0.03em;
 }
 
-.footer-text {
-  color: var(--primary-white-color);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-}
-.e-mail {
-  color: var(--address-color);
-  font-size: 16px;
-  line-height: 1.25;
-  letter-spacing: 0.03em;
-}
 /* Стили для portfolio.html */
 .portfolio .portfolio-title {
   color: var(--title-text-color);
