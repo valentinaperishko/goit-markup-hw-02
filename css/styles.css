@@ -1,3 +1,25 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --background-color: #2f303a;
+}
+
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -6,4 +28,94 @@
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+/* Cтилі хедера*/
+
+.page-header {
+  background-color: var(--primary-white-color);
+}
+
+.logo {
+  color: var(--primary-text-color);
+
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+
+  text-decoration: none;
+}
+
+.logo-part {
+  color: var(--accent-color);
+}
+
+.navigation-link {
+  color: var(--primary-text-color);
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.navigation-link:active {
+  color: var(--accent-color);
+}
+
+.currentPage {
+  color: var(--accent-color);
+}
+
+.contact-list-link {
+  color: var(--secondary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.contact-list-link:hover,
+.contact-list-link:focus {
+  color: var(--accent-color);
+}
+
+.contact-list-link:active {
+  color: var(--accent-color);
+}
+
+/* Cтилі головної частини*/
+.hero-section {
+  background-color: var(--background-color);
+}
+
+.page-title {
+  color: var(--primary-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.btn {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  text-align: center;
 }
