@@ -129,7 +129,7 @@ body {
 
 .feature-list-title {
   font-weight: 700;
-  font-size: 14px;
+  /* font-size: 14px; */
   line-height: 1.14;
 
   text-transform: uppercase;
@@ -192,6 +192,15 @@ body {
   text-decoration: none;
 }
 
+.direction:hover,
+.direction:focus {
+  color: var(--accent-color);
+}
+
+direction:active {
+  color: var(--accent-color);
+}
+
 .address-link {
   color: rgba(255, 255, 255, 0.6);
 
@@ -201,6 +210,14 @@ body {
   text-decoration: none;
 }
 
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+
+.address-link:active {
+  color: var(--accent-color);
+}
 /* Сторінка Портфоліо*/
 
 /* Секція "Наші проєкти"*/
@@ -214,6 +231,7 @@ body {
   line-height: 1.62;
 
   text-align: center;
+  cursor: pointer;
 }
 
 .portfolio-btn:hover,
