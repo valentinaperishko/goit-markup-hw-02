@@ -77,9 +77,12 @@ body {
 
 .contact-list-link {
   color: var(--secondary-text-color);
+
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+
+  text-decoration: none;
 }
 
 .contact-list-link:hover,
@@ -92,6 +95,8 @@ body {
 }
 
 /* Cтилі головної частини*/
+
+/* Секція герой*/
 .hero-section {
   background-color: var(--background-color);
 }
@@ -118,4 +123,80 @@ body {
   letter-spacing: 0.06em;
 
   text-align: center;
+}
+
+/* Секція Особливості*/
+
+.feature-list-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+
+  text-transform: uppercase;
+}
+
+.feature-list-text {
+  color: var(--secondary-text-color);
+
+  line-height: 1.71;
+}
+
+/* Секція "Чим ми займаємось"*/
+
+.section-title {
+  font-size: 36px;
+  line-height: 1.17;
+
+  text-align: center;
+}
+
+/*Секція команди*/
+
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.team-list-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+}
+
+.team-list-text {
+  color: var(--secondary-text-color);
+
+  font-size: 16px;
+  line-height: 1.19;
+
+  text-align: center;
+}
+
+/* Футер */
+
+.page-footer {
+  background-color: var(--background-color);
+}
+
+.white-part {
+  color: var(--primary-white-color);
+}
+
+.address-list .direction {
+  color: var(--primary-white-color);
+
+  line-height: 1.71;
+  font-style: normal;
+
+  text-decoration: none;
+}
+
+.address-link {
+  color: rgba(255, 255, 255, 0.6);
+
+  line-height: 1.71;
+  font-style: normal;
+
+  text-decoration: none;
 }
